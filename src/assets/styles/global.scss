@@ -1,0 +1,6 @@
+@use "reset";
+@use "typography";
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
