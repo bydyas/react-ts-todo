@@ -11,5 +11,9 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Save: Story = {
-  render: () => <Button label='Save changes' />,
+  render: () => <Button label='Save changes' modifier='save' />,
+};
+
+export const Delete: Story = {
+  render: () => <Button label='Delete Task' modifier='delete' />,
 };
