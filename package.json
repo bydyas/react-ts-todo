@@ -9,22 +9,13 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md,json}\" --config ./.prettierrc",
-    "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.8",
-    "@storybook/addon-interactions": "^7.0.8",
-    "@storybook/addon-links": "^7.0.8",
-    "@storybook/blocks": "^7.0.8",
-    "@storybook/react": "^7.0.8",
-    "@storybook/react-vite": "^7.0.8",
-    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
@@ -39,7 +30,6 @@
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
     "sass": "^1.62.1",
-    "storybook": "^7.0.8",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
   }
