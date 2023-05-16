@@ -1,0 +1,46 @@
+@use "../../assets/styles/variables" as vars;
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    background-color: vars.$layerColor;
+    border-radius: vars.$borderR;
+
+    padding: 0 15px;
+    padding-left: 0;
+    height: 3rem;
+
+    &__content {
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__statusStrip {
+        width: 7px;
+        min-height: 100%;
+        background-color: vars.$mainColor;
+    }
+
+    & span {
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+
+    &__lbl {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-direction: row-reverse;
+        cursor: pointer;
+    }
+
+    &__delete {
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+}

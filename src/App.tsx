@@ -1,5 +1,6 @@
 import { AddNewTask } from './components/AddNewTask/AddNewTask';
 import { Divider } from './components/Divider/Divider';
+import { TaskList } from './components/TaskList/TaskList';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <AddNewTask />
       </header>
       <Divider />
+      <main className='main'>
+        <TaskList />
+      </main>
     </div>
   );
 }
