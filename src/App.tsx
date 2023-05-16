@@ -1,4 +1,5 @@
 import { AddNewTask } from './components/AddNewTask/AddNewTask';
+import { Divider } from './components/Divider/Divider';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         <h1 className='heading'>Todolist</h1>
         <AddNewTask />
       </header>
+      <Divider />
     </div>
   );
 }
